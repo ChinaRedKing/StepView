@@ -29,4 +29,6 @@
  ```
  stepsView.signAction();
  stepsView.scrollToDays(6); 跳到指定的位置
-    ```
+  ```
+# Preview
+![Preview](img/ezgif-3-e528b8da87.gif)
