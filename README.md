@@ -28,6 +28,7 @@
  3.点击签到
  ```
  stepsView.signAction();
+ or
  stepsView.scrollToDays(6); 跳到指定的位置
   ```
 # Preview
