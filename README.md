@@ -13,7 +13,7 @@
 2.填入数据
 ```
         stepsView = (HorizontalStepsViewIndicator) findViewById(R.id.stepView);
-        //名称 签到状态  标记定位  是否有当前
+        //名称 签到状态  标记定位  是否有红包
         stepsBeanList.add(new PointBean("第1天", PointBean.STEP_SIGN, false, true));
         stepsBeanList.add(new PointBean("第2天", PointBean.STEP_SIGN));
         stepsBeanList.add(new PointBean("第3天", PointBean.STEP_SIGN, true));
@@ -25,4 +25,8 @@
         stepsBeanList.add(new PointBean("第9天", PointBean.STEP_UNSIGN));
         stepsView.setStepNum(stepsBeanList);
    ```
- 3.
+ 3.点击签到
+ ```
+ stepsView.signAction();
+ stepsView.scrollToDays(6); 跳到指定的位置
+    ```
